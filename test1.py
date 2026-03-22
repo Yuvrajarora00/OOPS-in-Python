@@ -1,3 +1,5 @@
+# practice 1
+
 class Student:
     def __init__(self):
         self.name = "yuvraj"
@@ -6,3 +8,6 @@ class Student:
 
 s1 = Student()
 print(s1.name, "\n", s1.marks)
+
+
+

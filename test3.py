@@ -21,10 +21,10 @@ class Mobile:
         return self.balance
 
 
-M1 = Mobile(100)  # already 100 rupee in phone
+M1 = Mobile(100) # already 100 rupee in phone 
 
 M1.recharge(50)  # we reacharge our mobile of 50 rupee
 
-M1.call(30)  # this means we make call of 30 minutes
+M1.call(30) # this means we make call of 30 minutes 
 
 print("final balance is: ", M1.show_balance())
