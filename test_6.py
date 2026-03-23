@@ -9,11 +9,9 @@ class Employee:
     def bonus(self):
         if self.salary > 50000:
             bonus = self.salary * 0.20
-            # print("bonus is", bonus)
         else:
             bonus = self.salary * 0.10
         return bonus
-        # print("your bonus is :", bonus)
 
     def show_salary(self):
         total = self.salary + self.bonus()
